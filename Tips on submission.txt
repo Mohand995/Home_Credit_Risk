@@ -1,0 +1,50 @@
+
+1-Tips on file directory:
+
+1-Models: contains the lgbm pipeline used in app for ineference 
+--------------------------------------------------------------------------------------
+
+2-Notebooks:
+
+00-----> contains EDA steps and visuals with findings 
+
+01-----> contains data preparation and feature engineering and building baseline model
+
+02-----> building full pipeline for the prediction with fine tuned model
+
+----------------------------------------------------------------------------------------------
+
+3-Results:
+
+contains two images taken by inference api testing on postman one for postive class and other for neg one
+
+-------------------------------------------------------------------------------------------------------
+
+4-utility.py & inference.py 
+
+contains code for building flask api to make predictions 
+
+--------------------------------------------------------------------------------------------
+
+Steps for production :
+
+after building the full pipeline i exported it as pkl file and start to build utility function to run inference
+then i built a flask api that accept list of features values and returns the class prediction with probability
+then i built docker file with steps to build docker image which next can be deployed on any cloud service
+like azure instance or EC2 instance on AWS.
+
+----------------------------------------------------------------------------------------------
+
+what to do if i had more time ?
+
+i would have more rounds on the full pipeline of data science so i would return back to eda step to invistigate
+more of features searching for different relations between feature which would help me to engineer more relevant
+feature and taking different decisions in preprocessing steps.
+
+also i would try different models and searching for different hyperparameters to get higher auc score.
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
