@@ -12,6 +12,8 @@
 
 02-----> building full pipeline for the prediction with fine tuned model
 
+03-----> formulating business problem as Anomaly detection.
+
 ----------------------------------------------------------------------------------------------
 
 3-Results:
